@@ -1,0 +1,16 @@
+C:\Mine\Register\Register.Core\bin\Debug\net5.0\Register.Data.dll
+C:\Mine\Register\Register.Core\obj\Debug\net5.0\Register.Core.csprojAssemblyReference.cache
+C:\Mine\Register\Register.Core\obj\Debug\net5.0\Register.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Mine\Register\Register.Core\obj\Debug\net5.0\Register.Core.AssemblyInfoInputs.cache
+C:\Mine\Register\Register.Core\obj\Debug\net5.0\Register.Core.AssemblyInfo.cs
+C:\Mine\Register\Register.Core\bin\Debug\net5.0\Register.Data.exe
+C:\Mine\Register\Register.Core\bin\Debug\net5.0\Register.Core.deps.json
+C:\Mine\Register\Register.Core\bin\Debug\net5.0\Register.Core.dll
+C:\Mine\Register\Register.Core\bin\Debug\net5.0\ref\Register.Core.dll
+C:\Mine\Register\Register.Core\bin\Debug\net5.0\Register.Core.pdb
+C:\Mine\Register\Register.Core\bin\Debug\net5.0\Register.Data.pdb
+C:\Mine\Register\Register.Core\obj\Debug\net5.0\Register.Core.csproj.CoreCompileInputs.cache
+C:\Mine\Register\Register.Core\obj\Debug\net5.0\Register.Core.csproj.CopyComplete
+C:\Mine\Register\Register.Core\obj\Debug\net5.0\Register.Core.dll
+C:\Mine\Register\Register.Core\obj\Debug\net5.0\ref\Register.Core.dll
+C:\Mine\Register\Register.Core\obj\Debug\net5.0\Register.Core.pdb

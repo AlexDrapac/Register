@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm, NgModel } from '@angular/forms';
+import { RegisterService } from 'src/app/core/services/register.service';
 
 @Component({
   selector: 'app-driven-form',
@@ -8,13 +9,23 @@ import { NgForm, NgModel } from '@angular/forms';
 })
 export class DrivenFormComponent implements OnInit {
 
-  constructor() { }
+
+  formModel = {
+    UserName: '',
+    FullName: '',
+    Email: '',
+    Password: ''
+  }
+
+  constructor(private service:RegisterService) { }
 
   ngOnInit(): void {
   }
 
   onSubmit(drivenForm: NgForm){
-    console.log(drivenForm)
-    console.log(drivenForm.value.emailField)
+        this.service.register(this.formModel)
+        drivenForm.resetForm();
   }
 }
+
+

@@ -1,26 +1,22 @@
 <div class="container">
     <div class="row mt-5">
         <div class="col-6">
-            <form #drivenForm="ngForm" (ngSubmit)="onSubmit(drivenForm)">
+            <form #drivenForm="ngForm" (submit)="onSubmit(drivenForm)">
                 <div class="mb-3 form-group">
                     <label for="userName" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="userName" name="userNameField" ngModel>
+                    <input type="text" class="form-control" id="userName" name="userNameField" [(ngModel)]="formModel.UserName">
                 </div>
                 <div class="mb-3 form-group">
                     <label for="fullName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="fullName" name="fullNameField" ngModel>
+                    <input type="text" class="form-control" id="fullName" name="fullNameField" [(ngModel)]="formModel.FullName">
                 </div>
                 <div class="mb-3 form-group">
                     <label for="email" class="form-label">Email</label>
-                    <input type="text" class="form-control" id="email" name="emailField" ngModel>
+                    <input type="text" class="form-control" id="email" name="emailField" [(ngModel)]="formModel.Email">
                 </div>
                 <div class="mb-3 form-group">
                     <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" name="passwordField" ngModel>
-                </div>
-                <div class="mb-3 form-group">
-                    <label for="confrimPassword" class="form-label">Confirm Password</label>
-                    <input type="password" class="form-control" id="confrimPassword" name="confrimPasswordField" ngModel>
+                    <input type="password" class="form-control" id="password" name="passwordField" [(ngModel)]="formModel.Password">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

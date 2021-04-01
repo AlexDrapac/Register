@@ -1,22 +1,26 @@
 <div class="container">
     <div class="row mt-5">
         <div class="col-6">
-            <form [formGroup]="service.reactiveForm" (ngSubmit)="onSubmit(service.reactiveForm)">
+            <form>
                 <div class="mb-3">
                     <label for="userName" class="form-label">Username</label>
-                    <input type="text" class="form-control" id="userName" formControlName="userName">
+                    <input type="text" class="form-control" id="userName">
                 </div>
                 <div class="mb-3">
                     <label for="fullName" class="form-label">Full Name</label>
-                    <input type="text" class="form-control" id="fullName" formControlName="fullName">
+                    <input type="text" class="form-control" id="fullName">
                 </div>
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
-                    <input type="text" class="form-control" id="email" formControlName="email">
+                    <input type="text" class="form-control" id="email">
                 </div>
                 <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
-                    <input type="password" class="form-control" id="password" formControlName="password">
+                    <input type="password" class="form-control" id="password">
+                </div>
+                <div class="mb-3">
+                    <label for="confrimPassword" class="form-label">Confirm Password</label>
+                    <input type="password" class="form-control" id="confrimPassword">
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

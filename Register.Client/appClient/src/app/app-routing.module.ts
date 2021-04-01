@@ -4,7 +4,6 @@ import { DrivenFormComponent } from './register/driven-form/driven-form.componen
 import { ReactiveFormComponent } from './register/reactive-form/reactive-form.component';
 
 const routes: Routes = [
-  {path:'', redirectTo:'/driven-form', pathMatch:'full'},
   {path: 'driven-form', component: DrivenFormComponent},
   {path: 'reactive-form', component: ReactiveFormComponent}
 ];

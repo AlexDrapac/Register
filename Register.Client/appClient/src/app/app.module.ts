@@ -6,8 +6,7 @@ import { AppComponent } from './app.component';
 import { DrivenFormComponent } from './register/driven-form/driven-form.component';
 import { ReactiveFormComponent } from './register/reactive-form/reactive-form.component';
 import { HeaderComponent } from './core/header/header.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http'
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -19,9 +18,7 @@ import { HttpClientModule } from '@angular/common/http'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule,
-    HttpClientModule
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

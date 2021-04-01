@@ -10,7 +10,7 @@ using Register.WebApi.Data;
 namespace Register.WebApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20210330055403_First")]
+    [Migration("20210401153905_First")]
     partial class First
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

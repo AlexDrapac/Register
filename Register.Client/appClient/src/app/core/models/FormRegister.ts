@@ -1,7 +1,7 @@
 export class FormRegister {
-    UserName: string;
-    FullName: string;
-    Email: string;
-    Password: string;
+    public UserName: string;
+    public FullName: string;
+    public Email: string;
+    public Password: string;
     
 }

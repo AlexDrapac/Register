@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormGroup, FormControl, FormBuilder } from '@angular/forms'
+import { RegisterService } from 'src/app/core/services/register.service';
 
 @Component({
   selector: 'app-reactive-form',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ReactiveFormComponent implements OnInit {
 
-  constructor() { }
+  
+
+  constructor(private formBuilder: FormBuilder, public service:RegisterService) { }
 
   ngOnInit(): void {
+  }
+
+
+  onSubmit(reactiveForm){
+    this.service.register(reactiveForm.value);
+    this.service.reactiveForm.reset()
   }
 
 }

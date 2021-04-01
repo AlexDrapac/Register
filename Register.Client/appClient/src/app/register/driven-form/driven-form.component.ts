@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm, NgModel } from '@angular/forms';
+import { FormRegister } from 'src/app/core/models/FormRegister';
 import { RegisterService } from 'src/app/core/services/register.service';
 
 @Component({
@@ -10,12 +11,7 @@ import { RegisterService } from 'src/app/core/services/register.service';
 export class DrivenFormComponent implements OnInit {
 
 
-  formModel = {
-    UserName: '',
-    FullName: '',
-    Email: '',
-    Password: ''
-  }
+  formModel = new FormRegister();
 
   constructor(private service:RegisterService) { }
 

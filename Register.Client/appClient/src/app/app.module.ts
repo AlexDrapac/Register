@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { DrivenFormComponent } from './register/driven-form/driven-form.component';
 import { ReactiveFormComponent } from './register/reactive-form/reactive-form.component';
 import { HeaderComponent } from './core/header/header.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
@@ -20,6 +20,7 @@ import { HttpClientModule } from '@angular/common/http'
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpClientModule
   ],
   providers: [],
